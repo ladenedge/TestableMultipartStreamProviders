@@ -7,8 +7,8 @@
     <ProjectGuid>{72168454-7C3D-4F41-A2F4-1072A46CECAD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DigiData.Services.Update.Tests</RootNamespace>
-    <AssemblyName>DigiData.Services.Update.Tests</AssemblyName>
+    <RootNamespace>System.Net.Http.Tests</RootNamespace>
+    <AssemblyName>System.Net.Http.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>

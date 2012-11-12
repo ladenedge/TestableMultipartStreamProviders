@@ -4,8 +4,8 @@
 System.Net.Http.TestableMultipartStreamProviders contains a full rewrite
 of the standard multipart stream providers:
 
- * {System.Net.Http.MultipartFileStreamProvider}[http://msdn.microsoft.com/en-us/library/system.net.http.multipartfilestreamprovider(v=vs.108).aspx]
- * {System.Net.Http.MultipartFormDataStreamProvider}[http://msdn.microsoft.com/en-us/library/system.net.http.multipartformdatastreamprovider(v=vs.108).aspx]
+* {System.Net.Http.MultipartFileStreamProvider}[http://msdn.microsoft.com/en-us/library/system.net.http.multipartfilestreamprovider.aspx] &rarr; TestableMultipartFileStreamProvider
+* {System.Net.Http.MultipartFormDataStreamProvider}[http://msdn.microsoft.com/en-us/library/system.net.http.multipartformdatastreamprovider.aspx] &rarr; TestableMultipartFormDataStreamProvider
 
 The downside of the standard classes is their hard coded reliance on the
 System.IO namespace, which makes them rather difficult to use in unit testing
