@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>System.Net.Http.TestableMultipartStreamProviders</id>
+        <version>$Version$</version>
+        <title>System.Net.Http.TestableMultipartStreamProviders</title>
+        <authors>Jay Miller</authors>
+        <owners>Jay Miller</owners>
+        <licenseUrl>http://creativecommons.org/publicdomain/mark/1.0</licenseUrl>
+        <projectUrl>http://github.com/ladenedge/TestableMultipartStreamProviders</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>Replacement multipart stream providers that are more conducive to unit testing.</description>
+        <releaseNotes/>
+        <copyright>Copyright DigiData Corp. 2012</copyright>
+        <tags>WebApi AspNetWebApi HttpClient</tags>
+        <dependencies>
+            <dependency id="Microsoft.AspNet.WebApi.Client" version="4.0.20710.0" />
+            <dependency id="SystemWrapper-sn" version="0.5.2" />
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="bin\Release\System.Net.Http.TestableMultipartStreamProviders.dll" target="lib\net45" />
+        <file src="bin\Release\System.Net.Http.TestableMultipartStreamProviders.xml" target="lib\net45" />
+    </files>
+</package>
