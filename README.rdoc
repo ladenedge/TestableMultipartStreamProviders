@@ -18,5 +18,5 @@ To install it, run the following command in the {Package Manager Console}[http:/
 
  PM> Install-Package System.Net.Http.TestableMultipartStreamProviders
 
-Please see the {wiki}[https://github.com/ladenedge/System.Net.Http.TestableMultipartStreamProviders/wiki]
+Please see the {wiki}[https://github.com/ladenedge/TestableMultipartStreamProviders/wiki]
 for usage and an example.
